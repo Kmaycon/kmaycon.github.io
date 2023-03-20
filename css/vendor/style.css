@@ -10,6 +10,30 @@
 }
 
 body {
-    height: 200px;px; 
-    width: 1366px;px;
+    height: 200px;
+    width: 1366px;
+ }
+
+ nav ul {
+    list-style: none;
+    background-color: coral;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+ }
+
+ nav li {
+    float: left;
+ }
+
+ nav a:hover {
+    background-color: white;
+    color: coral;
  }
