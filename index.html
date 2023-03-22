@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <title>Petito</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="icon" href="icone/icone.png" type="image/x-icon">
+    
 </head>
 
 <body>
-    <header style="background-image: url(Capa.png); background-size: cover;   background-color: #cccccc;
+    <header style="background-image: url(imagens/Capa.png); 
+    background-size: cover;   background-color: #cccccc;
     height: 420px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; ">
-    <!--<center><img src="Capa.png"></center>-->
+    position: relative;">
+    <div class="header-content-holder">
+        <div class="logo-header header-icon ">
+            <a class="logo-holder" href="index.html" onclick="sendAnalyticsHeaderClicked('Brand')">
+                
+                
+                        <img
+                            src="imagens/logo.png"
+                            class="logo img-responsive"
+                            alt="Petito - Tudo sobre o mundo animal"
+                            title="Petito - Tudo sobre o mundo animal"
+                            width="300"
+                            height="114"
+                        />
+                
+            </a>
+        </div>
+        
+    
     </header>
     
    
@@ -33,29 +54,36 @@
 		</nav>
 
     <a id="link-topo" href="#">&#9650;</a>
-<!--
-    <center><img src="animais.png"></center>
-        <center><p>Fonty: https://neofeed.com.br/blog/home/voce-acredita-que-os-animais-sao
-          -irracionais-o-cientista-frans-de-waal-derruba-esse-mito/</p></center> -->
-        
-          <p style="background-color:rgb(255, 71, 227); color: white">Aqui você poderá explorar um mundo fantástico, conhecerá um pouco mais da diversidade desses seres tão maravilhosos que compartilham conosco o Planeta Terra.
-            Tá animado? Então comece a tua jornada!</p>
-            <center><h1 style="background-color:rgb(47, 203, 20); color: white; border-radius: 8px;">O Mundo Animal é incrível! Você também pensa assim? Então está no lugar certo :3</h1></center>
-       <!-- <footer><h2 style="color: white">@Kmaycon</h2></footer>-->
-
-       <div class="container">
-        <h1>-------------- EM CONSTRUÇÃO! --------------</h1>
-        <p>Em...</p>
-        <div class="fotos animais">
-            <img style="margin: 20px 20px;" src="slide1.png" alt="anm1">
-            <img style="margin: 20px 20px;" src="slide2.png" alt="anm2">
-            <img style="margin: 20px 20px;" src="slide3.png" alt="anm3">
-            <br>
-            <img style="margin: 20px 20px;" src="slide1.png" alt="anm4">
-            <img style="margin: 20px 20px;" src="slide2.png" alt="anm5">
-            <img style="margin: 20px 20px;" src="slide3.png" alt="anm">
+    <div class="row">
+        <section>
+            <article class="card">
+                <p>Aqui você poderá explorar um mundo fantástico, conhecerá um pouco mais da diversidade desses seres tão maravilhosos que compartilham conosco o Planeta Terra.
+                    Tá animado? Então comece a tua jornada!</p>
+                    <center><h1 style="background-color:rgb(47, 203, 20); color: white; border-radius: 8px;">O Mundo Animal é incrível! Você também pensa assim? Então está no lugar certo :3</h1></center>
+        <!-- <footer><h2 style="color: white">@Kmaycon</h2></footer>-->
+            </article>
+            <article class="card">
+        <div class="container">
+            <h1>-------------- EM CONSTRUÇÃO! --------------</h1>
+            <p>Em...</p>
+            <div class="fotos animais">
+                <img style="width: 100%;" src="imagens/slide1.png" alt="anm1">
+                <img style="width: 100%;" src="imagens/slide2.png" alt="anm2">
+                <img style="width: 100%;" src="imagens/slide3.png" alt="anm3">
+                <br>
+                <img style="width: 100%;" src="imagens/slide1.png" alt="anm4">
+                <img style="width: 100%;" src="imagens/slide2.png" alt="anm5">
+                <img style="width: 100%;" src="imagens/slide3.png" alt="anm">
+            </div>
         </div>
-       </div>
+            </article>
+        </section>
+        <aside>
+            <article class="card">
+                INFOS - Animais
+            </article>
+        </aside>
+    </div>
 
        <footer>
         <!--
@@ -88,12 +116,9 @@
                 </div>
             </div>
         </div>-->
-        Rodapé
+        <hr>
+        <center><p>Github: @Kmaycon</p> </center> 
     </footer>
-
-
-       <hr>
-      <center><p>Github: @Kmaycon</p> </center> 
 
       </body>
 
