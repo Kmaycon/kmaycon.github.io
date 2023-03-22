@@ -2,6 +2,19 @@
    box-sizing: border-box;
 }
 
+header img {
+   margin-left: 50px;
+   margin-top: 250px;
+}
+
+header h1 {
+   color: white;
+   position: fixed;
+   font-size: 70px;
+   margin-left: 48px;
+   margin-top: 80px;
+}
+
 
 #link-topo{
     text-decoration: none;
