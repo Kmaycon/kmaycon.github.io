@@ -102,3 +102,22 @@ body {
    text-decoration: none;
    color: white;
  }
+/*tablet*/
+ @media screen and (max-width: 768px) {
+   section, aside {
+      width: 100%;
+      padding: 0;
+   }
+ }
+/*celular*/
+ @media screen and (max-width: 600px) {
+      nav li {
+         float: 0;
+         text-align: none;
+         width: 100%;
+      }
+
+   footer img {
+      display: none;
+   }
+ }
