@@ -9,7 +9,7 @@ header img {
 
 header h1 {
    color: white;
-   position: fixed;
+   position: absolute;
    font-size: 70px;
    margin-left: 48px;
    margin-top: 80px;
@@ -71,6 +71,7 @@ body {
    background-color: white;
    padding: 25px;
    margin-top: 25px;
+   border-radius: 8px;
  }
 
  section {
