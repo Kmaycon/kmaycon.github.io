@@ -11,33 +11,34 @@
 </head>
 
 <body>
-    <header style="background-image: url(imagens/Capa.png); 
-    background-size: cover;   background-color: #cccccc;
-    height: 420px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;">
+    <header>
+        <div class="cabecalho"> <!--pai-->
+    <center><img style=" position: absolute; top: 0" src="imagens/Capa.png"/></center>
         <h1>Olá!</h1>
-        <div class="header-content-holder">
+        <div class="header-content-holder"> <!--filho-->
             <div class="logo-header header-icon ">
                 <a class="logo-holder" href="index.html" onclick="sendAnalyticsHeaderClicked('Brand')">
                     
                     
                             <img
+                                style="position: absolute;"
                                 src="imagens/logo.png"
                                 class="logo img-responsive"
                                 alt="Petito - Tudo sobre o mundo animal"
                                 title="Petito - Tudo sobre o mundo animal"
-                                width="300"
-                                height="114"
+                                width="368"
+                                height="136"
+                                
                                 
                             />
                     
                 </a>
-                <br>
                 
-            </div>
+                <br>
+                </div> <!--fechalogo-->
+                
+            </div> <!--fecha filho-->
+        </div><!--fim cabecalho-->
             
     </header>
     
@@ -59,9 +60,9 @@
 <div class="row">
     <section>
         <article class="card">
-            <p style="color: #B58145; text-align: justify; font-weight: bolder;">Aqui você poderá explorar um mundo fantástico, conhecerá um pouco mais da diversidade desses seres tão maravilhosos que compartilham conosco o Planeta Terra.
+            <p style="color: #b54545; text-align: justify; font-weight: bolder;">Aqui você poderá explorar um mundo fantástico, conhecerá um pouco mais da diversidade desses seres tão maravilhosos que compartilham conosco o Planeta Terra.
                 Tá animado? Então comece a tua jornada!</p>
-                <center><h2 style="background-color:#F2D39B; color: white; border-radius: 8px; padding: 5px;">O Mundo Animal é incrível! Você também pensa assim? Então está no lugar certo <img src="imagens/Coala.gif" width="93" right="75px" ></h2></center>
+                <center><h2 style="background-color:#F2D39B; color: white; border-radius: 8px; padding: 5px;">O Mundo Animal é incrível! Você também pensa assim? Então está no lugar certo</h2> <img src="imagens/Coala.gif" width="93" right="75px" ></center>
     <!-- <footer><h2 style="color: white">@Kmaycon</h2></footer>-->
         </article>
         <article class="card">
@@ -92,7 +93,7 @@
                             alt="Petito - Tudo sobre o mundo animal"
                             title="Petito - Tudo sobre o mundo animal"
                             width="200"
-                            height="76"
+                            height="74"
                         />
     </footer>
 

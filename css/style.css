@@ -1,11 +1,12 @@
 * {
    box-sizing: border-box;
 }
-
-header img {
-   margin-left: 50px;
-   margin-top: 250px;
+.logo-header.header-icon {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 250px;
 }
+
 
 header h1 {
    color: white;
@@ -13,6 +14,13 @@ header h1 {
    font-size: 70px;
    margin-left: 48px;
    margin-top: 80px;
+}
+
+header {
+  background-color: #45BBBD;
+  height: 373px;
+  position: relative;
+  top: 0;
 }
 
 
@@ -29,19 +37,21 @@ header h1 {
 
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #F6F1DD;
     margin: 0;
-    background: #E8D9A5;
     height: 200px;
     width: 1366px;
  }
 
+
+
  nav ul {
     list-style: none;
-    background-color: #E8AC6F;
+    background-color: #45BBBD;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    box-shadow: 3px 3px 2px #7a5c3e70;
+    box-shadow: 3px 3px 2px #20283f76;
  }
 
  nav a {
@@ -59,7 +69,7 @@ body {
 
  nav a:hover {
     background-color: white;
-    color: #E8AC6F;
+    color: #45BBBD;
  }
 
  .row {
@@ -68,7 +78,7 @@ body {
  }
 
  .card {
-   background-color: rgb(250, 227, 216);
+   background-color: rgb(255, 255, 255);
    padding: 25px;
    margin-top: 25px;
    border-radius: 8px;
@@ -85,9 +95,10 @@ aside {
   padding-left: 20px;
 }
 
+
 footer {
   padding: 25px;
-  background: #E8AC6F;
+  background: #1999B2;
   color: white;
   margin-top: 20px;
   display: table;

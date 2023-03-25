@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/slider.css" type="text/css">
+    <link rel="stylesheet" href="css/slide.css" type="text/css">
 
     <link rel="icon" href="icone/icone.png" type="image/x-icon">
     
@@ -57,57 +57,35 @@
     <div class="row">
         <section>
             <article class="card">
-                <div class="slider">
+                
+                <input type="radio" class="slide-controller" name="slide" checked />
+                <input type="radio" class="slide-controller" name="slide" />
+                <input type="radio" class="slide-controller" name="slide" />
+                <input type="radio" class="slide-controller" name="slide" />
+                
 
-                    <div class="slides">
-                        <!--Radio Buttons-->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-
-                        <!--Radio Buttons-->
-    
-                        <!--Slide images-->
-                        <div class="slide first">
-                            <img src="imagens/slide1.png" alt="Imagem 1" />
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/slide2.png" alt="Imagem 2" />
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/slide3.png" alt="Imagem 3" />
-                        </div>
-                        <div class="slide"></div>
-                            <img src="imagens/slide4.png" alt="Imagem 4" />
-                        </div>
-
-                        <!--Slide images-->
-    
-                        
-                    </div>
-                    <!--Navigation auto-->
-                        <div class ="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-
-                        </div>
-    
-                    <div class="manual-navigation">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
-    
+                <div class="slide-show" >
+                <ul class="slides-list" >
+                    <li class="slide" >
+                    <img src="imagens/slide1.png" />
+                    </li>
+                    <li class="slide" >
+                        <img src="imagens/slide2.png" />
+                    </li>
+                    <li class="slide" >
+                        <img src="imagens/slide3.png" />
+                    </li>
+                    <li class="slide" >
+                        <img src="imagens/slide4.png" />
+                    </li>
+                </ul>
                 </div>
+            
             </article>
         </section>
 
     </div>
-    <script src="js/script.js"></script>
+    
     <footer>
     
 
