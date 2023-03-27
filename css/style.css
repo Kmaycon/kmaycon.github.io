@@ -37,7 +37,7 @@ header {
 
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background: #F6F1DD;
+    background: #f9f9f6;
     margin: 0;
     height: 200px;
     width: 1366px;
@@ -145,5 +145,16 @@ footer {
    footer img {
       display: none;
    }
+ }
+
+ .container img {
+  width: 304px;
+  height: 391px;
+ }
+
+ .container img, p, h1 {
+  display: inline-block;
+  float: left;
+
  }
 
