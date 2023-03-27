@@ -154,6 +154,10 @@ footer {
 
  .container img, p, h1 {
   display: inline-block;
+
+ }
+
+ .container img, p, h1 {
   float: left;
 
  }
