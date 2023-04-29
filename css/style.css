@@ -75,6 +75,7 @@ body {
  .row {
    padding: 0 20px;
    display: table;
+   margin: auto;
  }
 
  .card {
@@ -92,6 +93,7 @@ body {
 section {
   float: left;
   width: 1276px;
+  
 }
 
 aside {
@@ -167,3 +169,14 @@ footer {
 
  }
 
+ .container-curiosidades h3 {
+  color: #333;
+  text-align: center;
+ }
+
+ .container-curiosidades img {
+  width: 60%;  
+  margin: auto;
+  display: block;
+
+ }
