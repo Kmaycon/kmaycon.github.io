@@ -157,7 +157,7 @@ footer {
 
  }
 
- .container img, p, h1 {
+ .container #nickcapa, #textonick, h1 {
   float: left;
 
  }
